@@ -3,7 +3,7 @@ This repository contains the code and the synthetic data used for:
 
 **"Diffusion MRI signal cumulants and hepatocyte microstructure at fixed diffusion time: Insights from simulations, 9.4T imaging, and histology"**. *Grussu F, Bernatowicz K, Casanova-Salas I, Castro N, Nuciforo P, Mateo J, Barba I, Perez-Lopez R*; [Magnetic Resonance in Medicine 2022 (epub ahead of print)](https://doi.org/10.1002/mrm.29174), doi: 10.1002/mrm.29174.
 
-The repository will be launched in the next coming days - watch this spave! 
+The repository will be launched in the next coming days - watch this space! 
 
 ## License
 This repository is distributed under the Attribution-ShareAlike 4.0 International (CC BY-SA 4.0, canonical URL for the license [here](https://creativecommons.org/licenses/by-sa/4.0/)) license. 
