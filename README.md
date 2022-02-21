@@ -9,20 +9,20 @@ This repository contains the code and the synthetic data used for: **"Diffusion 
 This repository contains python and bash shell scripts. The code relies on the following dependencies:
 
 * a python 3 distribution with:
-   * Matplotlib (https://matplotlib.org/stable/index.html)
-   * Numpy (https://numpy.org)
-   * statsmodels (https://www.statsmodels.org/stable/index.html)
-   * scikit-learn (https://scikit-learn.org/stable/)
-   * Scipy (https://www.scipy.org/)
-   * DiPy (https://dipy.org/)
-   * MP-PCA code by New York University (https://github.com/NYU-DiffusionMRI/mppca_denoise/blob/master/mpdenoise.py)
-   * Gibbs unringing code by Henriques R (https://github.com/RafaelNH/gibbs-removal/blob/master/gibbs_removal.py)
-   * MRItools by Grussu F (https://github.com/fragrussu/MRItools)
+   * [Matplotlib](https://matplotlib.org/stable/index.html)
+   * [Numpy](https://numpy.org)
+   * [statsmodels](https://www.statsmodels.org/stable/index.html)
+   * [scikit-learn](https://scikit-learn.org/stable/)
+   * [Scipy](https://www.scipy.org/)
+   * [DiPy](https://dipy.org/)
+   * [MP-PCA python code](https://github.com/NYU-DiffusionMRI/mppca_denoise/blob/master/mpdenoise.py) by New York University
+   * [Gibbs unringing python code](https://github.com/RafaelNH/gibbs-removal/blob/master/gibbs_removal.py) by Henriques R
+   * [MRItools](https://github.com/fragrussu/MRItools)
    
-* MCDC diffusion simulator (https://github.com/jonhrafe/MCDC_Simulator_public) by Patiño R et al
-* FMRIB Software Library, known as FSL (https://fsl.fmrib.ox.ac.uk/fsl/fslwiki)
-* NiftyReg (http://cmictig.cs.ucl.ac.uk/wiki/index.php/NiftyReg)
-* QuPath (https://qupath.github.io/)
+* [MCDC diffusion simulator](https://github.com/jonhrafe/MCDC_Simulator_public) by Patiño R et al
+* [FMRIB Software Library](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki)
+* [NiftyReg](http://cmictig.cs.ucl.ac.uk/wiki/index.php/NiftyReg)
+* [QuPath](https://qupath.github.io/)
 
 # Content
 This repository contains three sub-folders. The content of each sub-folder is detailed in a specific README file contained within it. The sub-folders are:
