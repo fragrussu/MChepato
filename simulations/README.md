@@ -2,8 +2,8 @@
 The folder `simulations` contains the following scripts used to perform the analyses presented in the paper:
 
 * `runMC00_createvertices.py`: code used to generate the vertices of the meshes describing the synthetic cells, by perturbing regular triangularly-meshed prisms.
-* `runMC01_createply.sh`: code used to create the .PLY files to be fed to the MCDC simulator
-* `runMC02_runmc.sh`: code running the Monte Carlo diffusion simulation with [MCDC](https://github.com/jonhrafe/MCDC_Simulator_public). It relies on three text files used to generate simulation configuration files (runMC02_runmc.confp1.conf, runMC2_runmc.confp2.conf, runMC2_runmc.confp3.conf)
+* `runMC01_createply.sh`: code used to create the .PLY files to be fed to the [MCDC diffusion simulator](https://github.com/jonhrafe/MCDC_Simulator_public)
+* `runMC02_runmc.sh`: code running the Monte Carlo diffusion simulation with [MCDC diffusion simulator](https://github.com/jonhrafe/MCDC_Simulator_public). It relies on three text files used to generate simulation configuration files (runMC02_runmc.confp1.conf, runMC2_runmc.confp2.conf, runMC2_runmc.confp3.conf)
 * `script01run_gDur<...>_gSep<...>_bmin100.0_bmax<...>_Nb7.sh`: codes used to synthesise MRI signals for different clinically-feasible protocols
 * `script02_addIVIM.py`: code adding intra-voxel incoherent motion (IVIM)-like contamination to intra-cellular signals
 * `script03_addNoise.py`: code adding Rician noise to the synthetic MRI signal, after IVIM contamination
