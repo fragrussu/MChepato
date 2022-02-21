@@ -1,7 +1,7 @@
 # MChepato
 This repository contains the code and the synthetic data used for: **"Diffusion MRI signal cumulants and hepatocyte microstructure at fixed diffusion time: Insights from simulations, 9.4T imaging, and histology"**. *Grussu F, Bernatowicz K, Casanova-Salas I, Castro N, Nuciforo P, Mateo J, Barba I, Perez-Lopez R*; [Magnetic Resonance in Medicine 2022 (epub ahead of print)](https://doi.org/10.1002/mrm.29174), doi: 10.1002/mrm.29174.
 
-**F Grussu has received funding from the postdoctoral fellowships programme Beatriu de Pinós (2020 BP 00117), funded by the Secretary of Universities and Research (Government of Catalonia).**
+**FG has received funding from the postdoctoral fellowships programme Beatriu de Pinós (2020 BP 00117), funded by the Secretary of Universities and Research (Government of Catalonia).**
 
 ![GenCatFund](https://github.com/fragrussu/MChepato/blob/main/funder.png)
 
@@ -28,10 +28,10 @@ This repository contains python and bash shell scripts. The code relies on the f
 This repository contains three sub-folders. The content of each sub-folder is detailed in a specific README file contained within it. The sub-folders are:
 
 * [`simulations`](https://github.com/fragrussu/MChepato/tree/main/simulations): folder containing the code used to perform simulations;
-* [`data`](https://github.com/fragrussu/MChepato/tree/main/data): folder containing syntehtic data used by `simulations` (it will be uploaded in the coming days);
+* [`data`](https://github.com/fragrussu/MChepato/tree/main/data): folder containing syntehtic data processed by the code stored in [`simulations`](https://github.com/fragrussu/MChepato/tree/main/simulations) (it will be uploaded in the coming days);
 * [`exvivo`](https://github.com/fragrussu/MChepato/tree/main/exvivo): folder containing the code written to analyse 9.4T _ex vivo_ MRI scans of fixed mouse livers and their co-localised histological images (it will be uploaded in the coming days).
 
-The subfolder [`data`](https://github.com/fragrussu/MChepato/tree/main/data) contains the synthetic cell meshes used to perform Monte Carlo simulations of intra-cellular diffusion, shown below.
+[`data`](https://github.com/fragrussu/MChepato/tree/main/data) contains synthetic cell meshes used to perform Monte Carlo simulations of intra-cellular diffusion, illustrated below.
 
 <img src="https://github.com/fragrussu/MChepato/blob/main/cellmesh.png" width="550"> 
 
