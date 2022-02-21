@@ -3,7 +3,7 @@ The folder `simulations` contains the following scripts used to perform the anal
 
 * `runMC00_createvertices.py`: code used to generate the vertices of the meshes describing the synthetic cells, by perturbing regular triangularly-meshed prisms.
 * `runMC01_createply.sh`: code used to create the .PLY files to be fed to the MCDC simulator
-* `runMC02_runmc.sh`: code running the Monte Carlo diffusion simulation with MCDC (https://github.com/jonhrafe/MCDC_Simulator_public). It relies on three text files used to generate simulation configuration files (runMC02_runmc.confp1.conf, runMC2_runmc.confp2.conf, runMC2_runmc.confp3.conf)
+* `runMC02_runmc.sh`: code running the Monte Carlo diffusion simulation with [MCDC](https://github.com/jonhrafe/MCDC_Simulator_public). It relies on three text files used to generate simulation configuration files (runMC02_runmc.confp1.conf, runMC2_runmc.confp2.conf, runMC2_runmc.confp3.conf)
 * `script01run_gDur<...>_gSep<...>_bmin100.0_bmax<...>_Nb7.sh`: codes used to synthesise MRI signals for different clinically-feasible protocols
 * `script02_addIVIM.py`: code adding intra-voxel incoherent motion (IVIM)-like contamination to intra-cellular signals
 * `script03_addNoise.py`: code adding Rician noise to the synthetic MRI signal, after IVIM contamination
@@ -34,10 +34,10 @@ The scripts listed above rely on the following additional tools:
 * `AdcAkcFit.py`: tools used for apparent diffusion/kurtosis coefficient fitting
 * `getDict.py`: tools used for SigFit model fitting
 * `dir3.txt`: set of 3 isotropically-distributed gradient directions
-* `dir9.txt`: set of 9 isotropically-distributed gradient directions, downloaded from http://www.emmanuelcaruyer.com/q-space-sampling.php
-* `dir21.txt`: set of 21 isotropically-distributed gradient directions, downloaded from http://www.emmanuelcaruyer.com/q-space-sampling.php
-* `dir30.txt`: set of 30 isotropically-distributed gradient directions, downloaded from http://www.emmanuelcaruyer.com/q-space-sampling.php
-* `dir61.txt`: set of 61 isotropically-distributed gradient directions, downloaded from http://www.emmanuelcaruyer.com/q-space-sampling.php
+* `dir9.txt`: set of 9 isotropically-distributed gradient directions, downloaded from [here](http://www.emmanuelcaruyer.com/q-space-sampling.php)
+* `dir21.txt`: set of 21 isotropically-distributed gradient directions, downloaded from [here](http://www.emmanuelcaruyer.com/q-space-sampling.php)
+* `dir30.txt`: set of 30 isotropically-distributed gradient directions, downloaded from [here](http://www.emmanuelcaruyer.com/q-space-sampling.php)
+* `dir61.txt`: set of 61 isotropically-distributed gradient directions, downloaded from [here](http://www.emmanuelcaruyer.com/q-space-sampling.php)
 * `runMC02_runmc.confp1.conf`: text file used for configuration on Monte Carlo simulations
 * `runMC02_runmc.confp2.conf`: text file used for configuration on Monte Carlo simulations
 * `runMC02_runmc.confp3.conf`: text file used for configuration on Monte Carlo simulations
