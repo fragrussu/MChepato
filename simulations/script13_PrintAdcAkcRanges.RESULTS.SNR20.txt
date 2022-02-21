@@ -1,0 +1,60 @@
++++ Protocol ./results_gDur10.0_gSep50.0_bmin100.0_bmax1000.0_Nb7/syn_d10.0_D50.0_bmin100.0_bmax1000.0_Nbval7.AdcAkcS0.ivim.SNR20.bin
+    Median and 95% range of ADC: 0.709 [0.171; 2.038] um2/ms
+    Median and 95% range of AKC: 0.605 [-5.000; 6.274]
+
++++ Protocol ./results_gDur10.0_gSep50.0_bmin100.0_bmax1500.0_Nb7/syn_d10.0_D50.0_bmin100.0_bmax1500.0_Nbval7.AdcAkcS0.ivim.SNR20.bin
+    Median and 95% range of ADC: 0.642 [0.170; 1.758] um2/ms
+    Median and 95% range of AKC: 0.527 [-5.000; 4.012]
+
++++ Protocol ./results_gDur10.0_gSep50.0_bmin100.0_bmax2000.0_Nb7/syn_d10.0_D50.0_bmin100.0_bmax2000.0_Nbval7.AdcAkcS0.ivim.SNR20.bin
+    Median and 95% range of ADC: 0.628 [0.176; 1.647] um2/ms
+    Median and 95% range of AKC: 0.466 [-5.000; 3.276]
+
++++ Protocol ./results_gDur20.0_gSep25.0_bmin100.0_bmax1000.0_Nb7/syn_d20.0_D25.0_bmin100.0_bmax1000.0_Nbval7.AdcAkcS0.ivim.SNR20.bin
+    Median and 95% range of ADC: 0.794 [0.202; 2.239] um2/ms
+    Median and 95% range of AKC: 0.756 [-5.000; 5.009]
+
++++ Protocol ./results_gDur20.0_gSep25.0_bmin100.0_bmax1500.0_Nb7/syn_d20.0_D25.0_bmin100.0_bmax1500.0_Nbval7.AdcAkcS0.ivim.SNR20.bin
+    Median and 95% range of ADC: 0.747 [0.211; 2.008] um2/ms
+    Median and 95% range of AKC: 0.645 [-5.000; 3.310]
+
++++ Protocol ./results_gDur20.0_gSep25.0_bmin100.0_bmax2000.0_Nb7/syn_d20.0_D25.0_bmin100.0_bmax2000.0_Nbval7.AdcAkcS0.ivim.SNR20.bin
+    Median and 95% range of ADC: 0.735 [0.206; 1.932] um2/ms
+    Median and 95% range of AKC: 0.582 [-5.000; 2.557]
+
++++ Protocol ./results_gDur20.0_gSep50.0_bmin100.0_bmax1000.0_Nb7/syn_d20.0_D50.0_bmin100.0_bmax1000.0_Nbval7.AdcAkcS0.ivim.SNR20.bin
+    Median and 95% range of ADC: 0.684 [0.155; 2.026] um2/ms
+    Median and 95% range of AKC: 0.839 [-5.000; 6.689]
+
++++ Protocol ./results_gDur20.0_gSep50.0_bmin100.0_bmax1500.0_Nb7/syn_d20.0_D50.0_bmin100.0_bmax1500.0_Nbval7.AdcAkcS0.ivim.SNR20.bin
+    Median and 95% range of ADC: 0.637 [0.166; 1.766] um2/ms
+    Median and 95% range of AKC: 0.650 [-5.000; 4.168]
+
++++ Protocol ./results_gDur20.0_gSep50.0_bmin100.0_bmax2000.0_Nb7/syn_d20.0_D50.0_bmin100.0_bmax2000.0_Nbval7.AdcAkcS0.ivim.SNR20.bin
+    Median and 95% range of ADC: 0.602 [0.165; 1.610] um2/ms
+    Median and 95% range of AKC: 0.499 [-5.000; 3.618]
+
++++ Protocol ./results_gDur20.0_gSep75.0_bmin100.0_bmax1000.0_Nb7/syn_d20.0_D75.0_bmin100.0_bmax1000.0_Nbval7.AdcAkcS0.ivim.SNR20.bin
+    Median and 95% range of ADC: 0.605 [0.119; 1.782] um2/ms
+    Median and 95% range of AKC: 1.006 [-5.000; 7.994]
+
++++ Protocol ./results_gDur20.0_gSep75.0_bmin100.0_bmax1500.0_Nb7/syn_d20.0_D75.0_bmin100.0_bmax1500.0_Nbval7.AdcAkcS0.ivim.SNR20.bin
+    Median and 95% range of ADC: 0.540 [0.121; 1.564] um2/ms
+    Median and 95% range of AKC: 0.653 [-5.000; 5.866]
+
++++ Protocol ./results_gDur20.0_gSep75.0_bmin100.0_bmax2000.0_Nb7/syn_d20.0_D75.0_bmin100.0_bmax2000.0_Nbval7.AdcAkcS0.ivim.SNR20.bin
+    Median and 95% range of ADC: 0.512 [0.124; 1.507] um2/ms
+    Median and 95% range of AKC: 0.471 [-5.000; 4.382]
+
++++ Protocol ./results_gDur40.0_gSep50.0_bmin100.0_bmax1000.0_Nb7/syn_d40.0_D50.0_bmin100.0_bmax1000.0_Nbval7.AdcAkcS0.ivim.SNR20.bin
+    Median and 95% range of ADC: 0.639 [0.138; 1.981] um2/ms
+    Median and 95% range of AKC: 0.910 [-5.000; 8.215]
+
++++ Protocol ./results_gDur40.0_gSep50.0_bmin100.0_bmax1500.0_Nb7/syn_d40.0_D50.0_bmin100.0_bmax1500.0_Nbval7.AdcAkcS0.ivim.SNR20.bin
+    Median and 95% range of ADC: 0.585 [0.130; 1.578] um2/ms
+    Median and 95% range of AKC: 0.597 [-5.000; 5.059]
+
++++ Protocol ./results_gDur40.0_gSep50.0_bmin100.0_bmax2000.0_Nb7/syn_d40.0_D50.0_bmin100.0_bmax2000.0_Nbval7.AdcAkcS0.ivim.SNR20.bin
+    Median and 95% range of ADC: 0.554 [0.137; 1.547] um2/ms
+    Median and 95% range of AKC: 0.559 [-5.000; 4.269]
+

@@ -1,0 +1,238 @@
+++++ MRI protocol results_gDur10.0_gSep50.0_bmin100.0_bmax1000.0_Nb7/syn_d10.0_D50.0_bmin100.0_bmax1000.0_Nbval7.LD0gt.test.ivim.SNR20.bin
+     gDur = 10.0 ms, gSep = 50.0 ms, bmin = 100.0 s/mm2, bmax = 1000.0 s/mm2, SNR = 20
+         * Accuracy on training set: 0.5557142857142857
+         * Accuracy on test set: 0.5685071574642127
+         * 95% CI random class.: [0.21881390593047034; 0.43358895705521466]
+         * Accuracy on test set class 0 (small  cells): 0.7553191489361701
+         * Accuracy on test set class 1 (medium cells): 0.37857142857142856
+         * Accuracy on test set class 2 (large  cells): 0.515527950310559
+         * Full test set confusion matrix:
+[[0.29038855 0.08588957 0.00817996]
+ [0.08588957 0.10838446 0.09202454]
+ [0.08384458 0.07566462 0.16973415]]
+
+
+
+
+++++ MRI protocol results_gDur10.0_gSep50.0_bmin100.0_bmax1500.0_Nb7/syn_d10.0_D50.0_bmin100.0_bmax1500.0_Nbval7.LD0gt.test.ivim.SNR20.bin
+     gDur = 10.0 ms, gSep = 50.0 ms, bmin = 100.0 s/mm2, bmax = 1500.0 s/mm2, SNR = 20
+         * Accuracy on training set: 0.5757142857142857
+         * Accuracy on test set: 0.556237218813906
+         * 95% CI random class.: [0.21058282208588955; 0.4622188139059304]
+         * Accuracy on test set class 0 (small  cells): 0.7393617021276596
+         * Accuracy on test set class 1 (medium cells): 0.35714285714285715
+         * Accuracy on test set class 2 (large  cells): 0.515527950310559
+         * Full test set confusion matrix:
+[[0.28425358 0.06748466 0.03271984]
+ [0.08588957 0.10224949 0.09815951]
+ [0.07157464 0.08793456 0.16973415]]
+
+
+
+
+++++ MRI protocol results_gDur10.0_gSep50.0_bmin100.0_bmax2000.0_Nb7/syn_d10.0_D50.0_bmin100.0_bmax2000.0_Nbval7.LD0gt.test.ivim.SNR20.bin
+     gDur = 10.0 ms, gSep = 50.0 ms, bmin = 100.0 s/mm2, bmax = 2000.0 s/mm2, SNR = 20
+         * Accuracy on training set: 0.5685714285714286
+         * Accuracy on test set: 0.5644171779141104
+         * 95% CI random class.: [0.21881390593047034; 0.4498977505112474]
+         * Accuracy on test set class 0 (small  cells): 0.7872340425531915
+         * Accuracy on test set class 1 (medium cells): 0.37857142857142856
+         * Accuracy on test set class 2 (large  cells): 0.4658385093167702
+         * Full test set confusion matrix:
+[[0.30265849 0.07566462 0.00613497]
+ [0.08997955 0.10838446 0.08793456]
+ [0.07157464 0.10429448 0.15337423]]
+
+
+
+
+++++ MRI protocol results_gDur20.0_gSep25.0_bmin100.0_bmax1000.0_Nb7/syn_d20.0_D25.0_bmin100.0_bmax1000.0_Nbval7.LD0gt.test.ivim.SNR20.bin
+     gDur = 20.0 ms, gSep = 25.0 ms, bmin = 100.0 s/mm2, bmax = 1000.0 s/mm2, SNR = 20
+         * Accuracy on training set: 0.5342857142857143
+         * Accuracy on test set: 0.5398773006134969
+         * 95% CI random class.: [0.2331288343558282; 0.42336400817995906]
+         * Accuracy on test set class 0 (small  cells): 0.7553191489361702
+         * Accuracy on test set class 1 (medium cells): 0.32857142857142857
+         * Accuracy on test set class 2 (large  cells): 0.4720496894409938
+         * Full test set confusion matrix:
+[[0.29038855 0.07770961 0.01635992]
+ [0.10224949 0.09406953 0.08997955]
+ [0.09202454 0.08179959 0.15541922]]
+
+
+
+
+++++ MRI protocol results_gDur20.0_gSep25.0_bmin100.0_bmax1500.0_Nb7/syn_d20.0_D25.0_bmin100.0_bmax1500.0_Nbval7.LD0gt.test.ivim.SNR20.bin
+     gDur = 20.0 ms, gSep = 25.0 ms, bmin = 100.0 s/mm2, bmax = 1500.0 s/mm2, SNR = 20
+         * Accuracy on training set: 0.5228571428571429
+         * Accuracy on test set: 0.5439672801635992
+         * 95% CI random class.: [0.2249488752556237; 0.43149284253578735]
+         * Accuracy on test set class 0 (small  cells): 0.7925531914893617
+         * Accuracy on test set class 1 (medium cells): 0.27142857142857146
+         * Accuracy on test set class 2 (large  cells): 0.4906832298136646
+         * Full test set confusion matrix:
+[[0.30470348 0.04294479 0.03680982]
+ [0.10633947 0.07770961 0.10224949]
+ [0.09611452 0.07157464 0.16155419]]
+
+
+
+
+++++ MRI protocol results_gDur20.0_gSep25.0_bmin100.0_bmax2000.0_Nb7/syn_d20.0_D25.0_bmin100.0_bmax2000.0_Nbval7.LD0gt.test.ivim.SNR20.bin
+     gDur = 20.0 ms, gSep = 25.0 ms, bmin = 100.0 s/mm2, bmax = 2000.0 s/mm2, SNR = 20
+         * Accuracy on training set: 0.5285714285714286
+         * Accuracy on test set: 0.5460122699386503
+         * 95% CI random class.: [0.21876278118609405; 0.4335378323108384]
+         * Accuracy on test set class 0 (small  cells): 0.7234042553191489
+         * Accuracy on test set class 1 (medium cells): 0.38571428571428573
+         * Accuracy on test set class 2 (large  cells): 0.4782608695652173
+         * Full test set confusion matrix:
+[[0.27811861 0.08384458 0.02249489]
+ [0.09202454 0.11042945 0.08384458]
+ [0.09202454 0.0797546  0.15746421]]
+
+
+
+
+++++ MRI protocol results_gDur20.0_gSep50.0_bmin100.0_bmax1000.0_Nb7/syn_d20.0_D50.0_bmin100.0_bmax1000.0_Nbval7.LD0gt.test.ivim.SNR20.bin
+     gDur = 20.0 ms, gSep = 50.0 ms, bmin = 100.0 s/mm2, bmax = 1000.0 s/mm2, SNR = 20
+         * Accuracy on training set: 0.5657142857142857
+         * Accuracy on test set: 0.5787321063394683
+         * 95% CI random class.: [0.2147239263803681; 0.45194274028629855]
+         * Accuracy on test set class 0 (small  cells): 0.7553191489361701
+         * Accuracy on test set class 1 (medium cells): 0.37857142857142856
+         * Accuracy on test set class 2 (large  cells): 0.546583850931677
+         * Full test set confusion matrix:
+[[0.29038855 0.08588957 0.00817996]
+ [0.07157464 0.10838446 0.10633947]
+ [0.05725971 0.09202454 0.1799591 ]]
+
+
+
+
+++++ MRI protocol results_gDur20.0_gSep50.0_bmin100.0_bmax1500.0_Nb7/syn_d20.0_D50.0_bmin100.0_bmax1500.0_Nbval7.LD0gt.test.ivim.SNR20.bin
+     gDur = 20.0 ms, gSep = 50.0 ms, bmin = 100.0 s/mm2, bmax = 1500.0 s/mm2, SNR = 20
+         * Accuracy on training set: 0.5871428571428572
+         * Accuracy on test set: 0.5644171779141104
+         * 95% CI random class.: [0.2085889570552147; 0.44585889570552145]
+         * Accuracy on test set class 0 (small  cells): 0.7819148936170213
+         * Accuracy on test set class 1 (medium cells): 0.2571428571428572
+         * Accuracy on test set class 2 (large  cells): 0.577639751552795
+         * Full test set confusion matrix:
+[[0.3006135  0.0593047  0.02453988]
+ [0.07770961 0.07361963 0.13496933]
+ [0.0593047  0.0797546  0.19018405]]
+
+
+
+
+++++ MRI protocol results_gDur20.0_gSep50.0_bmin100.0_bmax2000.0_Nb7/syn_d20.0_D50.0_bmin100.0_bmax2000.0_Nbval7.LD0gt.test.ivim.SNR20.bin
+     gDur = 20.0 ms, gSep = 50.0 ms, bmin = 100.0 s/mm2, bmax = 2000.0 s/mm2, SNR = 20
+         * Accuracy on training set: 0.5814285714285714
+         * Accuracy on test set: 0.6012269938650306
+         * 95% CI random class.: [0.19831288343558284; 0.4601738241308793]
+         * Accuracy on test set class 0 (small  cells): 0.7659574468085106
+         * Accuracy on test set class 1 (medium cells): 0.45
+         * Accuracy on test set class 2 (large  cells): 0.5403726708074533
+         * Full test set confusion matrix:
+[[0.29447853 0.08588957 0.00408998]
+ [0.07770961 0.12883436 0.0797546 ]
+ [0.05112474 0.1002045  0.17791411]]
+
+
+
+
+++++ MRI protocol results_gDur20.0_gSep75.0_bmin100.0_bmax1000.0_Nb7/syn_d20.0_D75.0_bmin100.0_bmax1000.0_Nbval7.LD0gt.test.ivim.SNR20.bin
+     gDur = 20.0 ms, gSep = 75.0 ms, bmin = 100.0 s/mm2, bmax = 1000.0 s/mm2, SNR = 20
+         * Accuracy on training set: 0.5871428571428572
+         * Accuracy on test set: 0.6114519427402862
+         * 95% CI random class.: [0.2085889570552147; 0.45204498977505103]
+         * Accuracy on test set class 0 (small  cells): 0.7925531914893618
+         * Accuracy on test set class 1 (medium cells): 0.27142857142857146
+         * Accuracy on test set class 2 (large  cells): 0.6956521739130435
+         * Full test set confusion matrix:
+[[0.30470348 0.04907975 0.03067485]
+ [0.06748466 0.07770961 0.14110429]
+ [0.05725971 0.04294479 0.22903885]]
+
+
+
+
+++++ MRI protocol results_gDur20.0_gSep75.0_bmin100.0_bmax1500.0_Nb7/syn_d20.0_D75.0_bmin100.0_bmax1500.0_Nbval7.LD0gt.test.ivim.SNR20.bin
+     gDur = 20.0 ms, gSep = 75.0 ms, bmin = 100.0 s/mm2, bmax = 1500.0 s/mm2, SNR = 20
+         * Accuracy on training set: 0.6342857142857142
+         * Accuracy on test set: 0.6687116564417178
+         * 95% CI random class.: [0.1880879345603272; 0.46830265848670755]
+         * Accuracy on test set class 0 (small  cells): 0.8563829787234042
+         * Accuracy on test set class 1 (medium cells): 0.48571428571428577
+         * Accuracy on test set class 2 (large  cells): 0.608695652173913
+         * Full test set confusion matrix:
+[[0.32924335 0.05316973 0.00204499]
+ [0.07566462 0.1390593  0.07157464]
+ [0.04703476 0.08179959 0.200409  ]]
+
+
+
+
+++++ MRI protocol results_gDur20.0_gSep75.0_bmin100.0_bmax2000.0_Nb7/syn_d20.0_D75.0_bmin100.0_bmax2000.0_Nbval7.LD0gt.test.ivim.SNR20.bin
+     gDur = 20.0 ms, gSep = 75.0 ms, bmin = 100.0 s/mm2, bmax = 2000.0 s/mm2, SNR = 20
+         * Accuracy on training set: 0.6357142857142857
+         * Accuracy on test set: 0.6339468302658486
+         * 95% CI random class.: [0.19631901840490798; 0.4826687116564417]
+         * Accuracy on test set class 0 (small  cells): 0.75
+         * Accuracy on test set class 1 (medium cells): 0.5642857142857142
+         * Accuracy on test set class 2 (large  cells): 0.5590062111801242
+         * Full test set confusion matrix:
+[[0.28834356 0.09406953 0.00204499]
+ [0.04703476 0.16155419 0.07770961]
+ [0.02249489 0.12269939 0.18404908]]
+
+
+
+
+++++ MRI protocol results_gDur40.0_gSep50.0_bmin100.0_bmax1000.0_Nb7/syn_d40.0_D50.0_bmin100.0_bmax1000.0_Nbval7.LD0gt.test.ivim.SNR20.bin
+     gDur = 40.0 ms, gSep = 50.0 ms, bmin = 100.0 s/mm2, bmax = 1000.0 s/mm2, SNR = 20
+         * Accuracy on training set: 0.5728571428571428
+         * Accuracy on test set: 0.5950920245398773
+         * 95% CI random class.: [0.21467280163599184; 0.4581288343558282]
+         * Accuracy on test set class 0 (small  cells): 0.7553191489361701
+         * Accuracy on test set class 1 (medium cells): 0.4
+         * Accuracy on test set class 2 (large  cells): 0.577639751552795
+         * Full test set confusion matrix:
+[[0.29038855 0.09406953 0.        ]
+ [0.06952965 0.11451943 0.10224949]
+ [0.04907975 0.08997955 0.19018405]]
+
+
+
+
+++++ MRI protocol results_gDur40.0_gSep50.0_bmin100.0_bmax1500.0_Nb7/syn_d40.0_D50.0_bmin100.0_bmax1500.0_Nbval7.LD0gt.test.ivim.SNR20.bin
+     gDur = 40.0 ms, gSep = 50.0 ms, bmin = 100.0 s/mm2, bmax = 1500.0 s/mm2, SNR = 20
+         * Accuracy on training set: 0.6085714285714285
+         * Accuracy on test set: 0.6073619631901841
+         * 95% CI random class.: [0.2085889570552147; 0.4622188139059304]
+         * Accuracy on test set class 0 (small  cells): 0.7819148936170212
+         * Accuracy on test set class 1 (medium cells): 0.44999999999999996
+         * Accuracy on test set class 2 (large  cells): 0.5403726708074533
+         * Full test set confusion matrix:
+[[0.3006135  0.07566462 0.00817996]
+ [0.06339468 0.12883436 0.09406953]
+ [0.04907975 0.10224949 0.17791411]]
+
+
+
+
+++++ MRI protocol results_gDur40.0_gSep50.0_bmin100.0_bmax2000.0_Nb7/syn_d40.0_D50.0_bmin100.0_bmax2000.0_Nbval7.LD0gt.test.ivim.SNR20.bin
+     gDur = 40.0 ms, gSep = 50.0 ms, bmin = 100.0 s/mm2, bmax = 2000.0 s/mm2, SNR = 20
+         * Accuracy on training set: 0.6328571428571429
+         * Accuracy on test set: 0.6114519427402862
+         * 95% CI random class.: [0.1901840490797546; 0.4826687116564417]
+         * Accuracy on test set class 0 (small  cells): 0.776595744680851
+         * Accuracy on test set class 1 (medium cells): 0.48571428571428565
+         * Accuracy on test set class 2 (large  cells): 0.5279503105590061
+         * Full test set confusion matrix:
+[[0.29856851 0.08179959 0.00408998]
+ [0.07157464 0.1390593  0.07566462]
+ [0.05725971 0.09815951 0.17382413]]
+ 
+ 
