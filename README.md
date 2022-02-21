@@ -5,7 +5,7 @@ This repository contains the code and the synthetic data used for:
 
 This project has received funding from the postdoctoral fellowships programme Beatriu de Pinós (2020 BP 00117), funded by the Secretary of Universities and Research (Government of Catalonia).
 
-![GenCatFund](https://github.com/fragrussu/MChepato/blob/master/funder.png?raw=true)
+![GenCatFund](https://github.com/fragrussu/MChepato/blob/main/funder.png)
 
 
 ## License
