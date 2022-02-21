@@ -7,7 +7,6 @@ This project has received funding from the postdoctoral fellowships programme Be
 
 ![GenCatFund](https://github.com/fragrussu/MChepato/blob/master/funder.png)
 
-**The repository will be launched in full in the coming days - watch this space!** 
 
 ## License
 This repository is distributed under the Attribution-ShareAlike 4.0 International license ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)). Copyright (c) 2022, Fundació Privada Institut d’Investigació Oncològica de Vall d’Hebron. All rights reserved. Link to license [here](https://github.com/fragrussu/MChepato/blob/main/LICENSE.txt). 
