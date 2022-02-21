@@ -1,0 +1,132 @@
+#### Simulate MRI signals for a given PGSE pulse sequence given spin trajectories within synthetic hepatocytes
+import numpy as np
+import argparse
+import multiprocessing
+import sys
+import os
+import glob as gb
+import pickle as pk
+import matplotlib.pyplot as plt
+import time
+import syn_ivim_distr as syn
+
+
+
+if __name__ == "__main__":
+
+
+
+	### Print help and parse arguments
+	parser = argparse.ArgumentParser(description='Synthesise MRI signals')
+	parser.add_argument('gDur', help='gradient duration in ms (small Delta)')
+	parser.add_argument('gSep', help='gradient separation in ms (big Delta)')
+	parser.add_argument('bval', help='.bval file storing b-values in s/mm2')
+	parser.add_argument('outroot', help='root of output file names')
+	args = parser.parse_args()
+	
+
+	### Get MRI sequence information
+	myDelta = float(args.gSep)
+	mydelta = float(args.gDur)
+	bfile = args.bval
+	outroot = args.outroot
+
+	
+	# Create output folder
+	try:
+		os.mkdir(outdir)
+	except:
+		do_nothing = True
+
+	# Simulation information
+	outstring = '{}_syn_d{}_D{}'.format(outroot,mydelta,myDelta)     # Output file string
+	Nspins = 1000 # number of spins
+	Ntime = 3000  # number of time steps
+	Nsteps = Ntime + 1  # number of simulation interations
+	Tdur = 0.140  # total simulation duration in sec
+	trajdir='/nfs/Data/Disk2/clfgrussu/FGrussu/fgrussu/simulations/data/meshes/prism/perturbed_randomwalks'    # Directory where random walks are stored
+	cellsize = np.array([11.0,12.5,14.0,15.5,17.0,18.5,20.0,21.5,23.0,24.5,26.0,27.5,29.0,30.5,32.0,33.5,35.0,36.5,38.0,39.5,41.0,42.5,44.0,45.5,47.0,48.5,50.0,51.5,53.0,54.5,56.0,57.5,60.0])
+	dval = np.array([0.20,0.25,0.30,0.35,0.40,0.45,0.50,0.55,0.60,0.65,0.70,0.75,0.80,0.85,0.90,0.95,1.00,1.05,1.10,1.15,1.20,1.25,1.30,1.35,1.40,1.45,1.50,1.55,1.60,1.65,1.70,1.75,1.80,1.85,1.90,1.95,2.00,2.05,2.10,2.15,2.20,2.25,2.30,2.35,2.40])
+	Nwindow = 2  # Sliding window width in the discrete cell size / diffusivity grid
+
+	
+	# MRI sequence information
+	bvalseq = np.loadtxt(bfile)   # List of b-value in sec/mm2
+	Nbval = bvalseq.size          # Number of b-values 
+	deltaseq = mydelta*np.ones(Nbval)     # List of delta in msec
+	Deltaseq = myDelta*np.ones(Nbval)     # List of delta in msec
+
+
+	# Generate list of microstructures
+	ustruct_list = []
+	Ncells = cellsize.size
+	Ndiff = dval.size
+	for cs in range(Nwindow,Ncells-Nwindow):
+		for dv in range(Nwindow,Ndiff-Nwindow):		
+			ustruct_list.append(np.array([cellsize[cs],dval[dv]]))   # Each element of list contains: [cell_size, diffusivity]
+
+
+	# Save list of microstructures (centres of sliding windows)
+	hfile = open('{}.ustruct.bin'.format(outstring),'wb')
+	pk.dump(ustruct_list,hfile) 
+	hfile.close()
+
+	# Run computing
+	processinglist = []   # List of things to process
+	print('++++++++ searching files: ')
+	print('')
+	for ii in range(0,len(ustruct_list)):
+		# Measure how long it takes
+		tic = time.time()
+		# Find files with trajectories (study sliding windows of 7 cell sizes and 7 diffusivities
+		Lcentre = ustruct_list[ii][0]
+		Lcentreidx = np.asscalar( np.squeeze( np.where(cellsize==Lcentre) ) )
+		D0centre = ustruct_list[ii][1]
+		D0centreidx = np.asscalar( np.squeeze( np.where(dval==D0centre) ) )
+		ustruct_files = []
+		for ll in range(-Nwindow,Nwindow+1):
+			for dd in range(-Nwindow,Nwindow+1):
+				Lcurrent = cellsize[Lcentreidx + ll]
+				D0current = dval[D0centreidx + dd]
+				searchkey = '{}/mc_sides*_diam{}um_fpert0.1_npert*_dval{}um2ms.conf_0.traj'.format(trajdir,format(Lcurrent,'.1f'),format(D0current,'.2f'))
+				ustruct_buffer = gb.glob(searchkey)
+				ustruct_files = ustruct_files + ustruct_buffer	
+		
+		# Create element of processing list
+		processinglist.append([bvalseq,deltaseq,Deltaseq,Nspins,Nsteps,Tdur,ustruct_files,ii])     # Append each slice list and create a longer list of MRI slices whose processing will run in parallel
+		# Print how long it took
+		toc = time.time()
+		print('                         ii = {} / {} in {} sec'.format(ii+1,len(ustruct_list),toc-tic))
+	print('')
+
+
+	print('++++++++ analysing {} microstructures for {}'.format(len(ustruct_list),outstring))
+	print('')
+
+	outlist = []
+	for ii in range(0,len(ustruct_list)):
+		# Measure how long it takes
+		tic = time.time()
+		# Compute MRI signals
+		synresults = syn.getSignals(processinglist[ii])
+		outlist.append(synresults)
+		# Measure how long it took
+		toc = time.time()
+		print('                         ii = {} in {} sec'.format(ii,toc-tic))
+	print('')
+
+
+	# Save
+	print('++++++++ saving outputs')
+	print('')
+	hfile = open('{}.sig.icell.SNRinf.bin'.format(outstring),'wb')
+	pk.dump(outlist,hfile) 
+	hfile.close()
+
+	np.savetxt('{}.bval'.format(outstring), [bvalseq], fmt='%.1f', delimiter=' ')
+	np.savetxt('{}.gDur'.format(outstring), [deltaseq], fmt='%.1f', delimiter=' ')
+	np.savetxt('{}.gSep'.format(outstring), [Deltaseq], fmt='%.1f', delimiter=' ')
+
+	sys.exit(0)
+	
+
