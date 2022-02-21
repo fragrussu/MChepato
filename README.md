@@ -25,11 +25,11 @@ This repository contains python and bash shell scripts. The code relies on the f
 * [QuPath](https://qupath.github.io/)
 
 # Content
-This repository contains three sub-folders. The content of each sub-folder is detailed in a specific README file contained within it. The sub-folders are:
+This repository contains three sub-folders. The content the sub-folders is detailed in an additional README within each of them. The sub-folders are:
 
-* [`simulations`](https://github.com/fragrussu/MChepato/tree/main/simulations): folder containing the code used to perform simulations;
-* [`data`](https://github.com/fragrussu/MChepato/tree/main/data): folder containing syntehtic data processed by the code stored in [`simulations`](https://github.com/fragrussu/MChepato/tree/main/simulations) (it will be uploaded in the coming days);
-* [`exvivo`](https://github.com/fragrussu/MChepato/tree/main/exvivo): folder containing the code written to analyse 9.4T _ex vivo_ MRI scans of fixed mouse livers and their co-localised histological images (it will be uploaded in the coming days).
+* [`simulations`](https://github.com/fragrussu/MChepato/tree/main/simulations): folder containing the code used to perform simulations. README file [here](https://github.com/fragrussu/MChepato/blob/main/simulations/README.md);
+* [`data`](https://github.com/fragrussu/MChepato/tree/main/data): folder containing syntehtic data processed by the code stored in [`simulations`](https://github.com/fragrussu/MChepato/tree/main/simulations). README file [here](https://github.com/fragrussu/MChepato/blob/main/data/README.md);
+* [`exvivo`](https://github.com/fragrussu/MChepato/tree/main/exvivo): folder containing the code written to analyse 9.4T _ex vivo_ MRI scans of fixed mouse livers and their co-localised histological images. README file [here](https://github.com/fragrussu/MChepato/blob/main/exvivo/README.md).
 
 The folder [`perturbed`](https://github.com/fragrussu/MChepato/tree/main/data/perturbed) within [`data`](https://github.com/fragrussu/MChepato/tree/main/data) contains synthetic cell meshes in .ply format used to perform Monte Carlo simulations. The meshes are illustrated below (15 cell shapes for each unique cell size).
 
