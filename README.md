@@ -31,7 +31,7 @@ This repository contains three sub-folders. The content of each sub-folder is de
 * [`data`](https://github.com/fragrussu/MChepato/tree/main/data): folder containing syntehtic data processed by the code stored in [`simulations`](https://github.com/fragrussu/MChepato/tree/main/simulations) (it will be uploaded in the coming days);
 * [`exvivo`](https://github.com/fragrussu/MChepato/tree/main/exvivo): folder containing the code written to analyse 9.4T _ex vivo_ MRI scans of fixed mouse livers and their co-localised histological images (it will be uploaded in the coming days).
 
-[`data`](https://github.com/fragrussu/MChepato/tree/main/data) contains synthetic cell meshes used to perform Monte Carlo simulations of intra-cellular diffusion, illustrated below.
+[`data`](https://github.com/fragrussu/MChepato/tree/main/data) contains synthetic cell meshes in .ply format used to perform Monte Carlo simulations. The meshes are illustrated below.
 
 <img src="https://github.com/fragrussu/MChepato/blob/main/cellmesh.png" width="550"> 
 
