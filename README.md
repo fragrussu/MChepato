@@ -27,11 +27,11 @@ This repository contains python and bash shell scripts. The code relies on the f
 # Content
 This repository contains three sub-folders. The content of each sub-folder is detailed in a specific README file contained within it. The sub-folders are:
 
-* `simulations`: folder containing the code used to perform simulations;
-* `data`: folder containing syntehtic data used by `simulations`;
-* `exvivo`: folder containing the code written to analyse 9.4T _ex vivo_ MRI scans of fixed mouse livers and their co-localised histological images.
+* [`simulations`](https://github.com/fragrussu/MChepato/tree/main/simulations): folder containing the code used to perform simulations;
+* [`data`](https://github.com/fragrussu/MChepato/tree/main/data): folder containing syntehtic data used by `simulations` (it will be uploaded in the coming days);
+* [`exvivo`](https://github.com/fragrussu/MChepato/tree/main/exvivo): folder containing the code written to analyse 9.4T _ex vivo_ MRI scans of fixed mouse livers and their co-localised histological images (it will be uploaded in the coming days).
 
-The subfolder `data` contains the synthetic cell meshes used to perform Monte Carlo simulations of intra-cellular diffusion. The synthetic cells are shown below for reference.
+The subfolder [`data`](https://github.com/fragrussu/MChepato/tree/main/data) contains the synthetic cell meshes used to perform Monte Carlo simulations of intra-cellular diffusion, shown below.
 
 <img src="https://github.com/fragrussu/MChepato/blob/main/cellmesh.png" width="550"> 
 
