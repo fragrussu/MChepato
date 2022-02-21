@@ -33,9 +33,7 @@ This repository contains three sub-folders. The content of each sub-folder is de
 
 The subfolder `data` contains the synthetic cell meshes used to perform Monte Carlo simulations of intra-cellular diffusion. The synthetic cells are shown below for reference.
 
-<img src="https://github.com/fragrussu/MChepato/blob/main/cellmesh.png" width="668"> 
-
-
+<img src="https://github.com/fragrussu/MChepato/blob/main/cellmesh.png" width="350"> 
 
 
 # License
