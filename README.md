@@ -33,7 +33,7 @@ This repository contains three sub-folders, each with its own README file within
 
 The folder [`perturbed`](https://github.com/fragrussu/MChepato/tree/main/data/perturbed) within [`data`](https://github.com/fragrussu/MChepato/tree/main/data) contains synthetic cell meshes in .ply format used to perform Monte Carlo simulations. The meshes are illustrated below (15 cell shapes for each unique cell size).
 
-<img src="https://github.com/fragrussu/MChepato/blob/main/cellmesh.png" width="750"> 
+<img src="https://github.com/fragrussu/MChepato/blob/main/cellmesh.png" width="900"> 
 
 Researchers interested in accessing the _ex vivo_ mouse liver MRI and histology data can contact FG at [<fgrussu@vhio.net>](mailto:fgrussu@vhio.net) to stipulate relevant research and data transfer agreements.
 
