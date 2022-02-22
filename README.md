@@ -35,7 +35,7 @@ The folder [`perturbed`](https://github.com/fragrussu/MChepato/tree/main/data/pe
 
 <p align="center">
     <img src="https://github.com/fragrussu/MChepato/blob/main/cellmesh.png" width="700"> 
-p>
+<p>
   
 Researchers interested in accessing the _ex vivo_ mouse liver MRI and histology data can contact FG at [<fgrussu@vhio.net>](mailto:fgrussu@vhio.net) to stipulate relevant research and data transfer agreements.
 
