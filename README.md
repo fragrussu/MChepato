@@ -25,7 +25,7 @@ This repository contains python and bash shell scripts. The code relies on the f
 * [QuPath](https://qupath.github.io/)
 
 # Content
-This repository contains three sub-folders. The content the sub-folders is detailed in an additional README within each of them. The sub-folders are:
+This repository contains three sub-folders, each with its own README file within it. The sub-folders are:
 
 * [`simulations`](https://github.com/fragrussu/MChepato/tree/main/simulations): folder containing the code used to perform simulations. README file [here](https://github.com/fragrussu/MChepato/blob/main/simulations/README.md);
 * [`data`](https://github.com/fragrussu/MChepato/tree/main/data): folder containing syntehtic data processed by the code stored in [`simulations`](https://github.com/fragrussu/MChepato/tree/main/simulations). README file [here](https://github.com/fragrussu/MChepato/blob/main/data/README.md);
@@ -35,6 +35,7 @@ The folder [`perturbed`](https://github.com/fragrussu/MChepato/tree/main/data/pe
 
 <img src="https://github.com/fragrussu/MChepato/blob/main/cellmesh.png" width="700"> 
 
+Researchers interested in accessing the _ex vivo_ mouse liver MRI and histology data can contact FG at [<fgrussu@vhio.net>](mailto:fgrussu@vhio.net) to stipulate relevant research and data transfer agreements.
 
 # License
 This repository is distributed under the Attribution-ShareAlike 4.0 International license ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)). Copyright (c) 2022, Fundació Privada Institut d’Investigació Oncològica de Vall d’Hebron. All rights reserved. Link to license [here](https://github.com/fragrussu/MChepato/blob/main/LICENSE.txt). 
