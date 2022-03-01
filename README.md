@@ -29,12 +29,9 @@ This repository contains three sub-folders, each with its own README file within
 
 * [`simulations`](https://github.com/fragrussu/MChepato/tree/main/simulations): folder containing the code used to perform simulations. README file [here](https://github.com/fragrussu/MChepato/blob/main/simulations/README.md);
 * [`data`](https://github.com/fragrussu/MChepato/tree/main/data): folder containing syntehtic data processed by the code stored in [`simulations`](https://github.com/fragrussu/MChepato/tree/main/simulations). README file [here](https://github.com/fragrussu/MChepato/blob/main/data/README.md);
-* [`exvivo`](https://github.com/fragrussu/MChepato/tree/main/exvivo): folder containing the scripts written to analyse 9.4T _ex vivo_ MRI scans of fixed mouse livers and their co-localised histological images. README file [here](https://github.com/fragrussu/MChepato/blob/main/exvivo/README.md). The scripts rely on the following tools that others may find useful when processing MRI-histology data:
-  * [`getCSVfromQuPath`](https://github.com/fragrussu/MChepato/blob/main/exvivo/getCSVfromQuPath.sh): converts a .txt file with cell detection information from [QuPath](https://qupath.github.io) to CSV format;
-  * [`getCSVfromQuPath`](https://github.com/fragrussu/MChepato/blob/main/exvivo/getCSVfromQuPath.sh): converts a .txt file with cell detection information from [QuPath](https://qupath.github.io) to CSV format;
-  * [`getCSVfromQuPath`](https://github.com/fragrussu/MChepato/blob/main/exvivo/getCSVfromQuPath.sh): converts a .txt file with cell detection information from [QuPath](https://qupath.github.io) to CSV format.
+* [`exvivo`](https://github.com/fragrussu/MChepato/tree/main/exvivo): folder containing the scripts written to analyse 9.4T _ex vivo_ MRI scans of fixed mouse livers and their co-localised histological images. README file [here](https://github.com/fragrussu/MChepato/blob/main/exvivo/README.md).
 
-
+### Cell meshes
 The folder [`perturbed`](https://github.com/fragrussu/MChepato/tree/main/data/perturbed) within [`data`](https://github.com/fragrussu/MChepato/tree/main/data) contains synthetic cell meshes in .ply format used to perform Monte Carlo simulations. The meshes are illustrated below (15 cell shapes for each unique cell size).
 
 <p align="center">
@@ -43,6 +40,13 @@ The folder [`perturbed`](https://github.com/fragrussu/MChepato/tree/main/data/pe
   
 Researchers interested in accessing the _ex vivo_ mouse liver MRI and histology data can contact FG at [<fgrussu@vhio.net>](mailto:fgrussu@vhio.net) to stipulate relevant research and data transfer agreements.
 
+### MRI-histology tools  
+The folder [`exvivo`](https://github.com/fragrussu/MChepato/tree/main/exvivo) contains the following tools that one may find useful when processing MRI-histology data:
+  * [`getCSVfromQuPath.sh`](https://github.com/fragrussu/MChepato/blob/main/exvivo/getCSVfromQuPath.sh): command-line tool converting a .txt file with cell detection information from [QuPath](https://qupath.github.io) to CSV format;
+  * [`getPatchMapFromQuPath.py`](https://github.com/fragrussu/MChepato/blob/main/exvivo/getPatchMapFromQuPath.py): command-line python tool that computes patch-wise maps of cell size, intra-cellular fraction, eosin optical density and cellularity from individual cell size segmentations from [QuPath](https://qupath.github.io), and stores them in NIFTI format;
+  * [`warpPatchHisto2MRI.py`](https://github.com/fragrussu/MChepato/blob/main/exvivo/warpPatchHisto2MRI.py): command-line python tool that co-registers the manual outline of a specimen drawn on one MRI slice and on the patch-wise maps provided by [`getPatchMapFromQuPath.py`](https://github.com/fragrussu/MChepato/blob/main/exvivo/getPatchMapFromQuPath.py).  
+
+  
 ## License
 This repository is distributed under the Attribution-ShareAlike 4.0 International license ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)). Copyright (c) 2022, Fundació Privada Institut d’Investigació Oncològica de Vall d’Hebron. All rights reserved. Link to license [here](https://github.com/fragrussu/MChepato/blob/main/LICENSE.txt). 
 
