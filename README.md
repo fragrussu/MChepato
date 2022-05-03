@@ -1,5 +1,5 @@
 # MChepato
-This repository contains the code and the synthetic data used for: **"Diffusion MRI signal cumulants and hepatocyte microstructure at fixed diffusion time: Insights from simulations, 9.4T imaging, and histology"**. *Grussu F, Bernatowicz K, Casanova-Salas I, Castro N, Nuciforo P, Mateo J, Barba I, Perez-Lopez R*; Magnetic Resonance in Medicine 2022 (early view ahead of print), doi: [10.1002/mrm.29174](https://doi.org/10.1002/mrm.29174).
+This repository contains the code and the synthetic data used for: **"Diffusion MRI signal cumulants and hepatocyte microstructure at fixed diffusion time: Insights from simulations, 9.4T imaging, and histology"**. *Grussu F, Bernatowicz K, Casanova-Salas I, Castro N, Nuciforo P, Mateo J, Barba I, Perez-Lopez R*; Magnetic Resonance in Medicine 2022, 88(1): 365-379, doi: [10.1002/mrm.29174](https://doi.org/10.1002/mrm.29174).
 
 **FG has received funding from the postdoctoral fellowships programme Beatriu de Pinós (2020 BP 00117), funded by the Secretary of Universities and Research (Government of Catalonia).**
 
